@@ -1,21 +1,24 @@
 id: user-rights
-name: user-rights
+name: User Rights
 tagline: ''
 description: ''
 dataset: https://github.com/OpenTermsArchive/user-rights-versions/releases
 declarations: https://github.com/OpenTermsArchive/user-rights-declarations
 versions: https://github.com/OpenTermsArchive/user-rights-versions
 snapshots: https://github.com/OpenTermsArchive/user-rights-snapshots
-donations: ''
-logo: ''
-languages: []
-jurisdictions: []
+languages:
+  - en
+jurisdictions:
+  - IE
 trackingPeriods:
-  - startDate: 2026-05-13
-    schedule: "30 */12 * * *"
-    serverLocation: ''
+  - startDate: '2026-05-13'
+    schedule: 30 */12 * * *
+    serverLocation: Dublin, IE
 governance:
-  OpenTermsArchive:
-    url: ''
-    logo: ''
-    roles: [administrator, curator, maintainer]
+  Open Terms Archive:
+    url: https://opentermsarchive.org
+    logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
+    roles:
+      - administrator
+      - curator
+      - maintainer
