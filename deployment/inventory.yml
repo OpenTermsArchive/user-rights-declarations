@@ -1,6 +1,6 @@
 all:
   hosts:
-    162.19.74.224:
-      ansible_user: ota
-      ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIGcuX6/msM3RT3HHnZ22fC+zgqucPIoZbnnZ5cLEztYV
-      ota_collection_repository: https://github.com/OpenTermsArchive/demo-declarations.git
+    <your_server_hostname>:
+      ansible_user: <your_server_username>
+      ed25519_fingerprint: <your_server_ssh_fingerprint>
+      ota_source_repository: <your_repository_url>

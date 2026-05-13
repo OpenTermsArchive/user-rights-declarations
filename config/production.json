@@ -4,8 +4,8 @@
       "versions": {
         "storage": {
           "git": {
-            "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/demo-snapshots/commit/%SNAPSHOT_ID",
-            "repository": "git@github.com:OpenTermsArchive/demo-versions.git",
+            "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/user-rights-snapshots/commit/%SNAPSHOT_ID",
+            "repository": "git@github.com:OpenTermsArchive/user-rights-versions.git",
             "path": "./data/versions"
           }
         }
@@ -13,7 +13,7 @@
       "snapshots": {
         "storage": {
           "git": {
-            "repository": "git@github.com:OpenTermsArchive/demo-snapshots.git",
+            "repository": "git@github.com:OpenTermsArchive/user-rights-snapshots.git",
             "path": "./data/snapshots"
           }
         }
@@ -31,14 +31,14 @@
     "reporter": {
       "type": "github",
       "repositories": {
-        "declarations": "OpenTermsArchive/demo-declarations",
-        "versions": "OpenTermsArchive/demo-versions",
-        "snapshots": "OpenTermsArchive/demo-snapshots"
+        "declarations": "OpenTermsArchive/user-rights-declarations",
+        "versions": "OpenTermsArchive/user-rights-versions",
+        "snapshots": "OpenTermsArchive/user-rights-snapshots"
       }
     },
     "dataset": {
-      "title": "demo",
-      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/demo-versions"
+      "title": "user-rights",
+      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/user-rights-versions"
     },
     "collection-api": {
       "port": 3000,
