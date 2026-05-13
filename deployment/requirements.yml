@@ -1,0 +1,4 @@
+---
+collections:
+- name: opentermsarchive.deployment
+  version: 3.1.0
