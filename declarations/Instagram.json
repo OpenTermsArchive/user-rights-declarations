@@ -1,0 +1,406 @@
+{
+  "name": "Instagram",
+  "terms": {
+    "Terms of Service": {
+      "remove": [
+        "[role=\"navigation\"]",
+        "fieldset",
+        "[id=\"Related Articles\"]",
+        "[aria-label=\"Copy link\"]",
+        "[aria-hidden=\"true\"]",
+        "[data-type=\"hscroll-child\"]"
+      ],
+      "executeClientScripts": true,
+      "combine": [
+        {
+          "fetch": "https://help.instagram.com/581066165581870",
+          "select": [
+            "[role=\"main\"]"
+          ]
+        },
+        {
+          "fetch": "https://www.facebook.com/legal/eu-ai-terms",
+          "select": [
+            {
+              "startBefore": "[role=\"main\"]",
+              "endBefore": "[role=\"separator\"]"
+            }
+          ]
+        }
+      ]
+    },
+    "Privacy Policy": {
+      "select": [
+        "body"
+      ],
+      "remove": [
+        "img",
+        "video",
+        "[aria-controls]",
+        "nav",
+        "header",
+        "footer",
+        "[aria-label=\"Search\"]",
+        "[aria-label=\"Menu\"]",
+        "[role=\"dialog\"]"
+      ],
+      "executeClientScripts": true,
+      "fetch": "https://privacycenter.instagram.com/policy"
+    },
+    "Community Guidelines": {
+      "select": [
+        {
+          "startBefore": "main",
+          "endBefore": "#user-experiences"
+        }
+      ],
+      "remove": [
+        "[role=\"navigation\"]",
+        "[href=\"#user-experiences\"]",
+        "[href=\"#data\"]",
+        "[href=\"#policy-details\"]",
+        "[role=\"tablist\"]",
+        "[aria-label=\"Video player\"]",
+        "img[alt=\"\"]"
+      ],
+      "filter": [
+        "removeChangeLogLabel"
+      ],
+      "combine": [
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/",
+          "select": "main"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/violence-incitement/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/dangerous-individuals-organizations/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/coordinating-harm-publicizing-crime/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/regulated-goods/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/fraud-deception/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/suicide-self-injury/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/child-sexual-exploitation-abuse-nudity/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/sexual-exploitation-adults/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/bullying-harassment/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/human-exploitation/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/privacy-violations-image-privacy-rights/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/hate-speech/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/violent-graphic-content/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/adult-nudity-sexual-activity/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/sexual-solicitation/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/account-integrity/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/authentic-identity-representation/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/spam/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/cybersecurity/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/inauthentic-behavior/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/misinformation/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/memorialization/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/intellectual-property/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/meta-intellectual-property/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/additional-protection-minors/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/locally-illegal-products-services/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/user-requests/"
+        }
+      ],
+      "executeClientScripts": true
+    },
+    "Live Policy": {
+      "select": "[role=\"main\"]",
+      "remove": [
+        "[role=\"navigation\"]",
+        "fieldset",
+        "[aria-label=\"Copy link\"]",
+        "[id=\"Related Articles\"]"
+      ],
+      "filter": [
+        {
+          "removeQueryParams": [
+            "h",
+            "_nc_gid",
+            "oh"
+          ]
+        }
+      ],
+      "executeClientScripts": true,
+      "fetch": "https://www.facebook.com/help/instagram/163366675115842/"
+    },
+    "Human Rights Policy": {
+      "fetch": "https://humanrights.fb.com/policy/",
+      "select": "main",
+      "remove": [
+        "[role=\"img\"]"
+      ],
+      "executeClientScripts": true
+    },
+    "Content Monetisation Policy": {
+      "select": [
+        "[role=\"main\"]"
+      ],
+      "remove": [
+        "[role=\"navigation\"]",
+        "fieldset",
+        "[id=\"Related Articles\"]",
+        "[aria-label=\"Copy link\"]",
+        "[data-type=\"hscroll-child\"]"
+      ],
+      "executeClientScripts": true,
+      "combine": [
+        {
+          "fetch": "https://help.instagram.com/2635536099905516"
+        },
+        {
+          "fetch": "https://help.instagram.com/512371932629820"
+        }
+      ]
+    },
+    "Advertising Content Policy": {
+      "select": "main",
+      "remove": [
+        "[role=\"navigation\"]",
+        "[href=\"#user-experiences\"]",
+        "[href=\"#data\"]",
+        "[href=\"#policy-details\"]",
+        "[role=\"tablist\"]",
+        "[aria-label=\"Video player\"]",
+        "img[alt=\"\"]"
+      ],
+      "filter": [
+        {
+          "removeQueryParams": [
+            "h",
+            "_nc_gid",
+            "oh"
+          ]
+        }
+      ],
+      "combine": [
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/objectionable-content/privacy-violations-personal-attributes/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/objectionable-content/adult-nudity-and-sexual-activity/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/objectionable-content/child-sexual-exploitation-abuse-nudity/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/unacceptable-content/dangerous-orgs-individuals/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/unacceptable-content/discriminatory-practices/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/unacceptable-content/hateful-conduct/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/unacceptable-content/human-exploitation/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/unacceptable-content/locally-illegal-products-services/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/unacceptable-content/misinformation/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/unacceptable-content/vaccine-discouragement/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/fraud-scams/fraud-scams-deceptive-practices/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/fraud-scams/unacceptable-business-practices/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/alcohol/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/commercial-exploitation-of-crises-and-controversial-events/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/dating-ads/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/hazardous-goods-materials/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/health-wellness/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/historical-artifacts/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/bodily-parts-and-fluid/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/live-endangered-nonendangered-animals/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/tobacco-related-products/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/weapons-ammunitions-explosives/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/drugs-pharmaceuticals/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/drug-alcohol-addiction-treatment/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/financial-services/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/cryptocurrency-products-and-services/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/gambling-games/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/objectionable-content/adult-nudity-and-sexual-activity/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/objectionable-content/adult-sexual-exploitation/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/objectionable-content/adult-sexual-solicitation-and-sexually-explicit-language/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/objectionable-content/bullying-harassment/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/objectionable-content/profanity/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/objectionable-content/privacy-violations-personal-attributes/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/objectionable-content/violent-graphic-content/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/objectionable-content/suicide-selfinjury-eating-disorders/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/intellectual-property-infringement/third-party-infringement/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/intellectual-property-infringement/Using-Meta-Intellectual-Property-Licenses/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/SIEP-advertising/SIEP/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/business-assets/account-integrity/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/business-assets/inauthentic-behavior/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/business-assets/Cybersecurity/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/business-assets/spam/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/business-assets/user-requests/"
+        },
+        {
+          "fetch": "https://www.facebook.com/business/help/975570072950669?id=434838534925385",
+          "select": [
+            "#redesign-headers",
+            "#faq-page"
+          ],
+          "remove": [
+            "#GBMRelatedLinksSideRoot",
+            "#left-sidenav",
+            "[href=\"#\"]"
+          ],
+          "filter": [
+            {
+              "removeQueryParams": [
+                "h",
+                "_nc_gid",
+                "oh"
+              ]
+            }
+          ]
+        },
+        {
+          "fetch": "https://www.facebook.com/business/help/399587795372584",
+          "select": [
+            "#redesign-headers",
+            "#faq-page"
+          ],
+          "remove": [
+            "#GBMRelatedLinksSideRoot",
+            "#left-sidenav",
+            "[href=\"#\"]"
+          ],
+          "filter": [
+            {
+              "removeQueryParams": [
+                "h",
+                "_nc_gid",
+                "oh"
+              ]
+            }
+          ]
+        }
+      ],
+      "executeClientScripts": true
+    }
+  }
+}
