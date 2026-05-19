@@ -1,0 +1,51 @@
+{
+  "name": "Pinterest",
+  "terms": {
+    "Terms of Service": {
+      "select": "main",
+      "fetch": "https://policy.pinterest.com/en/terms-of-service"
+    },
+    "Privacy Policy": {
+      "select": "main",
+      "combine": [
+        {
+          "fetch": "https://policy.pinterest.com/en/privacy-policy"
+        },
+        {
+          "fetch": "https://policy.pinterest.com/en/information-about-call-recordings"
+        },
+        {
+          "fetch": "https://policy.pinterest.com/en/non-user-notice"
+        }
+      ]
+    },
+    "Community Guidelines": {
+      "select": "main",
+      "combine": [
+        {
+          "fetch": "https://policy.pinterest.com/en/community-guidelines"
+        },
+        {
+          "fetch": "https://policy.pinterest.com/en/enforcement"
+        }
+      ]
+    },
+    "Human Rights Policy": {
+      "fetch": "https://s204.q4cdn.com/369458543/files/governance_doc/human-rights-statement.pdf"
+    },
+    "Advertising Content Policy": {
+      "select": "main",
+      "combine": [
+        {
+          "fetch": "https://policy.pinterest.com/en/advertising-guidelines"
+        },
+        {
+          "fetch": "https://policy.pinterest.com/en/ad-data-terms"
+        },
+        {
+          "fetch": "https://help.pinterest.com/en/business/article/lead-ads"
+        }
+      ]
+    }
+  }
+}
