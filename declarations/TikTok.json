@@ -1,0 +1,219 @@
+{
+  "name": "TikTok",
+  "terms": {
+    "Terms of Service": {
+      "select": "#policy-card",
+      "remove": [
+        ".lang-selection"
+      ],
+      "fetch": "https://www.tiktok.com/legal/page/eea/terms-of-service/en"
+    },
+    "Privacy Policy": {
+      "select": "#policy-card",
+      "remove": [
+        ".lang-selection"
+      ],
+      "combine": [
+        {
+          "fetch": "https://www.tiktok.com/legal/page/eea/privacy-policy/en"
+        },
+        {
+          "fetch": "https://www.tiktok.com/legal/page/global/privacy-policy-for-younger-users/en"
+        },
+        {
+          "fetch": "https://www.tiktok.com/legal/page/global/tiktok-ad-network-privacy-policy/en"
+        }
+      ]
+    },
+    "Community Guidelines": {
+      "select": [
+        "[class^=\"layout-body-\"]"
+      ],
+      "remove": [
+        "[class^=\"wiki-navigation-content-\"]",
+        "[class^=\"wiki-toc-\"]",
+        "picture",
+        ".sc-bwCtUz"
+      ],
+      "executeClientScripts": true,
+      "combine": [
+        {
+          "fetch": "https://www.tiktok.com/safety/en/policies-and-engagement/overview"
+        },
+        {
+          "fetch": "https://www.tiktok.com/safety/en/policies-and-engagement/community-principles"
+        },
+        {
+          "fetch": "https://www.tiktok.com/safety/en/policies-and-engagement/youth-safety"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/safety-civility/?cgversion=2025H2update"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/mental-behavioral-health/"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/sensitive-mature-themes/"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/integrity-authenticity/"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/regulated-commercial-activities/"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/privacy-security/"
+        },
+        {
+          "fetch": "https://www.tiktok.com/safety/en/policies-and-engagement/fyf-standards"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/accounts-features/"
+        },
+        {
+          "fetch": "https://www.tiktok.com/community-guidelines/en/enforcement/"
+        }
+      ]
+    },
+    "Human Rights Policy": {
+      "select": [
+        "[class^=\"layout-body-\"]"
+      ],
+      "remove": [
+        "[class^=\"wiki-navigation-content-\"]",
+        "[class^=\"wiki-toc-\"]",
+        "picture",
+        ".sc-bwCtUz"
+      ],
+      "executeClientScripts": true,
+      "fetch": "https://www.tiktok.com/safety/en/policies-and-engagement/upholding-human-rights"
+    },
+    "Content Monetisation Policy": {
+      "select": "#policy-card",
+      "remove": [
+        ".lang-selection"
+      ],
+      "executeClientScripts": true,
+      "combine": [
+        {
+          "fetch": "https://www.tiktok.com/legal/page/global/rewards-policy-eea/en"
+        },
+        {
+          "fetch": "https://www.tiktok.com/legal/page/eea/virtual-items/en"
+        },
+        {
+          "fetch": "https://www.tiktok.com/legal/page/global/tiktok-creator-rewards-program-eea/en"
+        },
+        {
+          "fetch": "https://www.tiktok.com/legal/page/global/tiktok-creativity-program-beta-terms-eea/en"
+        },
+        {
+          "fetch": "https://www.tiktok.com/legal/page/global/bc-policy/en"
+        },
+        {
+          "fetch": "https://www.tiktok.com/legal/page/global/tiktok-creator-fund-terms-eu/en"
+        },
+        {
+          "fetch": "https://www.tiktok.com/live/creators/en-US/rules_and_guidance/live_monetization_guidelines",
+          "select": "#content-root"
+        },
+        {
+          "fetch": "https://www.tiktok.com/creator-academy/en/article/creator-code-of-conduct",
+          "select": "#academyArticleMainBody"
+        },
+        {
+          "fetch": "https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service",
+          "select": [
+            ".article-desc-container"
+          ],
+          "remove": [
+            ".help-container"
+          ]
+        },
+        {
+          "fetch": "https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/commercial-use-of-music-on-tiktok",
+          "select": [
+            ".article-desc-container"
+          ],
+          "remove": [
+            ".help-container"
+          ]
+        }
+      ]
+    },
+    "Advertising Content Policy": {
+      "select": ".article_wrapper_slug_center",
+      "remove": [
+        ".byted-breadcrumb",
+        ".article_wrapper_slug_feedback_survey",
+        "#embed-video-container"
+      ],
+      "executeClientScripts": true,
+      "combine": [
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-advertising-policies?lang=en"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-ad-format-and-functionality"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-adult-content"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-alcohol"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-animals-and-environment"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-dangerous-products-or-services"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-deceptive-practices"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/discrimination-harassment-bullying"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-financial-services"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-gambling-and-games"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-healthcare-pharmaceuticals"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-intellectual-property-infringement"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-misinformation"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-misleading-and-false-content"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-other-products-and-services"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-politics-government-and-elections"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-suicide-and-self-harm"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-suicide-and-self-harm"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-after-conversion-experience-policy"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-violence-and-dangerous-activities"
+        },
+        {
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-weight-management"
+        }
+      ]
+    }
+  }
+}
