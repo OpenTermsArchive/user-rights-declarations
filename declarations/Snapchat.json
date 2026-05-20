@@ -1,0 +1,197 @@
+{
+  "name": "Snapchat",
+  "terms": {
+    "Terms of Service": {
+      "select": ".sdsm-page",
+      "remove": [
+        "#summary",
+        ".sdsm-media-wrapper"
+      ],
+      "combine": [
+        {
+          "fetch": "https://www.snap.com/terms?lang=en-GB"
+        },
+        {
+          "fetch": "https://www.snap.com/terms/paid-features?lang=en-GB"
+        },
+        {
+          "fetch": "https://www.snap.com/terms/my-selfie?lang=en-GB"
+        },
+        {
+          "fetch": "https://www.snap.com/policies/pcd?lang=en-GB"
+        },
+        {
+          "fetch": "https://www.snap.com/terms/create-geofilter?lang=en-GB"
+        },
+        {
+          "fetch": "https://www.snap.com/terms/custom-creative-tools?lang=en-GB"
+        },
+        {
+          "fetch": "https://www.snap.com/terms/lens-studio-terms?lang=en-GB"
+        },
+        {
+          "fetch": "https://www.snap.com/terms/ai-tools?lang=en-GB"
+        }
+      ]
+    },
+    "Privacy Policy": {
+      "select": ".sdsm-page",
+      "remove": [
+        "#summary",
+        ".sdsm-media-wrapper"
+      ],
+      "combine": [
+        {
+          "fetch": "https://values.snap.com/privacy/privacy-center?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/privacy/privacy-principles?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/privacy/privacy-by-product?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/privacy/privacy-policy?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/privacy/your-information?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/privacy/teens?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/privacy/ads-privacy?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/privacy/privacy-through-security?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/privacy/privacy-policy/spectacles-supplemental-privacy-policy?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/privacy/privacy-policy/eea-uk-privacy-notice?lang=en-GB"
+        },
+        {
+          "fetch": "https://www.snap.com/terms/personal-data?lang=en-GB"
+        },
+        {
+          "fetch": "https://www.snap.com/terms/standard-contractual-clauses?lang=en-GB"
+        },
+        {
+          "fetch": "https://www.snap.com/terms/eea-c-c-scc?lang=en-GB"
+        },
+        {
+          "fetch": "https://help.snapchat.com/hc/en-gb/articles/22535044112532-Learn-About-How-Snap-Uses-Data?lang=en-GB",
+          "select": ".article-wrapper",
+          "remove": [
+            ".breadcrumbs"
+          ]
+        }
+      ]
+    },
+    "Community Guidelines": {
+      "select": ".sdsm-page",
+      "remove": [
+        "#summary",
+        ".sdsm-media-wrapper"
+      ],
+      "combine": [
+        {
+          "fetch": "https://values.snap.com/policy/policy-community-guidelines?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/privacy/transparency/community-guidelines/severe-harm?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/privacy/transparency/community-guidelines/usernames-and-displaynames?lang=en-US"
+        },
+        {
+          "fetch": "https://values.snap.com/policy/content-guidelines-recommendation-eligibility?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/policy/policy-community-guidelines/sexual-content?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/policy/content-guidelines-recommendation-eligibility/recommendation-eligibility/sexual-content?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/policy/policy-community-guidelines/threats-violence-harm?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/policy/content-guidelines-recommendation-eligibility/recommendation-eligibility/disturbing-violent-content?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/policy/policy-community-guidelines/hateful-content-terrorism-violent-extremism?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/policy/content-guidelines-recommendation-eligibility/recommendation-eligibility/hateful-content-terrorism-violent-extremism?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/policy/policy-community-guidelines/harassment-bullying?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/policy/content-guidelines-recommendation-eligibility/recommendation-eligibility/harassment-bullying?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/policy/policy-community-guidelines/illegal-regulated-activities?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/policy/content-guidelines-recommendation-eligibility/recommendation-eligibility/illegal-regulated-activities?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/policy/policy-community-guidelines/harmful-false-deceptive-practices?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/policy/content-guidelines-recommendation-eligibility/recommendation-eligibility/false-deceptive-information?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/policy/content-guidelines-recommendation-eligibility/recommendation-eligibility/commercial-content?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/policy/content-guidelines-recommendation-eligibility/recommendation-eligibility/quality?lang=en-GB"
+        },
+        {
+          "fetch": "https://values.snap.com/policy/content-guidelines-recommendation-eligibility/recommendation-eligibility/public-interest-content?lang=en-GB"
+        }
+      ]
+    },
+    "Human Rights Policy": {
+      "select": ".sdsm-page",
+      "remove": [
+        "#summary",
+        ".sdsm-media-wrapper"
+      ],
+      "fetch": "https://values.snap.com/privacy/transparency/community-guidelines/human-rights?lang=en-GB"
+    },
+    "Content Monetisation Policy": {
+      "select": ".sdsm-page",
+      "remove": [
+        "#summary",
+        ".sdsm-media-wrapper"
+      ],
+      "combine": [
+        {
+          "fetch": "https://values.snap.com/policy/creator-monetization-policy?lang=en-GB"
+        },
+        {
+          "fetch": "https://www.snap.com/monetization-terms?lang=en-GB"
+        }
+      ]
+    },
+    "Advertising Content Policy": {
+      "select": ".sdsm-page",
+      "remove": [
+        "#summary",
+        ".sdsm-media-wrapper"
+      ],
+      "combine": [
+        {
+          "fetch": "https://www.snap.com/ad-policies?lang=en-GB"
+        },
+        {
+          "fetch": "https://www.snap.com/ad-policies/political?lang=en-GB"
+        }
+      ]
+    }
+  }
+}
