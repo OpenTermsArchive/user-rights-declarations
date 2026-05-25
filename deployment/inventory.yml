@@ -1,6 +1,6 @@
 all:
   hosts:
-    <your_server_hostname>:
-      ansible_user: <your_server_username>
-      ed25519_fingerprint: <your_server_ssh_fingerprint>
-      ota_source_repository: <your_repository_url>
+    193.24.234.188:
+      ansible_user: ota
+      ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIPtLaY9Lm5pOh/3uq8BIoRCRPnodZIFmqxEPevn+7cif
+      ota_collection_repository: https://github.com/OpenTermsArchive/user-rights-declarations.git
