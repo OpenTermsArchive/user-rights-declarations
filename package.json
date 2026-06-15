@@ -17,5 +17,11 @@
   },
   "dependencies": {
     "@opentermsarchive/engine": "git+https://github.com/OpenTermsArchive/engine.git#update-collection-api"
+  },
+  "overrides": {
+    "@accordproject/concerto-core@3.19.8": {
+      "@accordproject/concerto-cto": "3.19.8",
+      "@accordproject/concerto-util": "3.19.8"
+    }
   }
 }
