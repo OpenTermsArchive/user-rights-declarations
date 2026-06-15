@@ -41,7 +41,8 @@
           "removeQueryParams": [
             "_nc_gid",
             "oh",
-            "h"
+            "h",
+            "oe"
           ]
         }
       ],
@@ -114,7 +115,8 @@
           "removeQueryParams": [
             "h",
             "_nc_gid",
-            "oh"
+            "oh",
+            "oe"
           ]
         }
       ],
@@ -261,7 +263,8 @@
           "removeQueryParams": [
             "h",
             "_nc_gid",
-            "oh"
+            "oh",
+            "oe"
           ]
         }
       ],
@@ -416,14 +419,16 @@
           "remove": [
             "#GBMRelatedLinksSideRoot",
             "#left-sidenav",
-            "[href=\"#\"]"
+            "[href=\"#\"]",
+            ".img"
           ],
           "filter": [
             {
               "removeQueryParams": [
                 "h",
                 "_nc_gid",
-                "oh"
+                "oh",
+                "oe"
               ]
             }
           ]
@@ -437,14 +442,16 @@
           "remove": [
             "#GBMRelatedLinksSideRoot",
             "#left-sidenav",
-            "[href=\"#\"]"
+            "[href=\"#\"]",
+            ".img"
           ],
           "filter": [
             {
               "removeQueryParams": [
                 "h",
                 "_nc_gid",
-                "oh"
+                "oh",
+                "oe"
               ]
             }
           ]
