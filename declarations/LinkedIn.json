@@ -124,6 +124,14 @@
         ".article-content__video",
         ".machine-translation"
       ],
+      "filter": [
+        {
+          "removeQueryParams": [
+            "e",
+            "t"
+          ]
+        }
+      ],
       "combine": [
         {
           "fetch": "https://linkedin.com/legal/ads-policy"
