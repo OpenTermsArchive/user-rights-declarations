@@ -256,7 +256,8 @@
       "remove": [
         "#GBMRelatedLinksSideRoot",
         "#left-sidenav",
-        "[href=\"#\"]"
+        "[href=\"#\"]",
+        ".img"
       ],
       "filter": [
         {
