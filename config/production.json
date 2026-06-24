@@ -38,7 +38,7 @@
       "port": 3000,
       "basePath": "/collection-api",
       "feed": {
-        "versionUrlTemplate": "https://github.com/OpenTermsArchive/demo-versions/commit/%VERSION_ID"
+        "versionUrlTemplate": "https://github.com/OpenTermsArchive/user-rights-versions/commit/%VERSION_ID"
       }
     },
     "logger": {
