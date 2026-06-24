@@ -16,12 +16,11 @@
     "dataset:schedule": "npm run dataset -- --publish --remove-local-copy --schedule"
   },
   "dependencies": {
-    "@opentermsarchive/engine": "git+https://github.com/OpenTermsArchive/engine.git#update-collection-api"
+    "@opentermsarchive/engine": "14.0.0"
   },
   "overrides": {
-    "@accordproject/concerto-core@3.19.8": {
-      "@accordproject/concerto-cto": "3.19.8",
-      "@accordproject/concerto-util": "3.19.8"
+    "@accordproject/markdown-cicero": {
+      "winston": "3.19.0"
     }
   }
 }
