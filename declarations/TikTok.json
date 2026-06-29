@@ -6,7 +6,7 @@
       "remove": [
         ".lang-selection"
       ],
-      "fetch": "https://www.tiktok.com/legal/page/eea/terms-of-service/en"
+      "fetch": "https://www.tiktok.com/legal/page/eea/terms-of-service/en?region=IE"
     },
     "Privacy Policy": {
       "select": "#policy-card",
@@ -15,13 +15,13 @@
       ],
       "combine": [
         {
-          "fetch": "https://www.tiktok.com/legal/page/eea/privacy-policy/en"
+          "fetch": "https://www.tiktok.com/legal/page/eea/privacy-policy/en?region=IE"
         },
         {
-          "fetch": "https://www.tiktok.com/legal/page/global/privacy-policy-for-younger-users/en"
+          "fetch": "https://www.tiktok.com/legal/page/global/privacy-policy-for-younger-users/en?region=IE"
         },
         {
-          "fetch": "https://www.tiktok.com/legal/page/global/tiktok-ad-network-privacy-policy/en"
+          "fetch": "https://www.tiktok.com/legal/page/global/tiktok-ad-network-privacy-policy/en?region=IE"
         }
       ]
     },
@@ -96,22 +96,22 @@
       "executeClientScripts": true,
       "combine": [
         {
-          "fetch": "https://www.tiktok.com/legal/page/global/rewards-policy-eea/en"
+          "fetch": "https://www.tiktok.com/legal/page/global/rewards-policy-eea/en?region=IE"
         },
         {
-          "fetch": "https://www.tiktok.com/legal/page/eea/virtual-items/en"
+          "fetch": "https://www.tiktok.com/legal/page/eea/virtual-items/en?region=IE"
         },
         {
-          "fetch": "https://www.tiktok.com/legal/page/global/tiktok-creator-rewards-program-eea/en"
+          "fetch": "https://www.tiktok.com/legal/page/global/tiktok-creator-rewards-program-eea/en?region=IE"
         },
         {
-          "fetch": "https://www.tiktok.com/legal/page/global/tiktok-creativity-program-beta-terms-eea/en"
+          "fetch": "https://www.tiktok.com/legal/page/global/tiktok-creativity-program-beta-terms-eea/en?region=IE"
         },
         {
-          "fetch": "https://www.tiktok.com/legal/page/global/bc-policy/en"
+          "fetch": "https://www.tiktok.com/legal/page/global/bc-policy/en?region=IE"
         },
         {
-          "fetch": "https://www.tiktok.com/legal/page/global/tiktok-creator-fund-terms-eu/en"
+          "fetch": "https://www.tiktok.com/legal/page/global/tiktok-creator-fund-terms-eu/en?region=IE"
         },
         {
           "fetch": "https://www.tiktok.com/live/creators/en-US/rules_and_guidance/live_monetization_guidelines",
