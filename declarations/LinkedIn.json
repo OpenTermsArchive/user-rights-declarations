@@ -89,7 +89,8 @@
         ".article-details-content__aside",
         "#helpfulness-rating",
         ".article-content__video",
-        ".machine-translation"
+        ".machine-translation",
+        "[data-test-selector=\"relativeTime-container\"]"
       ],
       "combine": [
         {
