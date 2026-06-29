@@ -39,7 +39,8 @@
         ".banner__image-container",
         ".component-standaloneImage",
         ".article-content__video",
-        ".machine-translation"
+        ".machine-translation",
+        "[data-test-selector=\"relativeTime-container\"]"
       ],
       "combine": [
         {
@@ -123,7 +124,8 @@
         ".banner__image-container",
         ".component-standaloneImage",
         ".article-content__video",
-        ".machine-translation"
+        ".machine-translation",
+        "[data-test-selector=\"relativeTime-container\"]"
       ],
       "filter": [
         {
