@@ -215,7 +215,7 @@
           "remove": [
             "[role=\"navigation\"]",
             "fieldset",
-            "[id=\"Related Articles\"]",
+            "[id=\"Related Articles\" i]",
             "[aria-label=\"Copy link\"]",
             "[data-type=\"hscroll-child\"]"
           ]
