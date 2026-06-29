@@ -251,7 +251,8 @@
     "Content Monetisation Policy": {
       "select": [
         "#redesign-headers",
-        "#faq-page"
+        "#faq-page",
+        "[style=\"height: 16px;\"]"
       ],
       "remove": [
         "#GBMRelatedLinksSideRoot",
