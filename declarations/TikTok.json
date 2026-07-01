@@ -146,7 +146,8 @@
       "remove": [
         ".byted-breadcrumb",
         ".article_wrapper_slug_feedback_survey",
-        "#embed-video-container"
+        "#embed-video-container",
+        ".tt4b-renderer"
       ],
       "executeClientScripts": true,
       "combine": [
