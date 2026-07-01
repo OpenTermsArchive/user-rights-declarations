@@ -248,31 +248,6 @@
       ],
       "executeClientScripts": true
     },
-    "Content Monetisation Policy": {
-      "select": [
-        "#redesign-headers",
-        "#faq-page",
-        "[style=\"height: 16px;\"]"
-      ],
-      "remove": [
-        "#GBMRelatedLinksSideRoot",
-        "#left-sidenav",
-        "[href=\"#\"]",
-        ".img"
-      ],
-      "filter": [
-        {
-          "removeQueryParams": [
-            "h",
-            "_nc_gid",
-            "oh",
-            "oe"
-          ]
-        }
-      ],
-      "executeClientScripts": true,
-      "fetch": "https://www.facebook.com/business/help/1348682518563619?id=2520940424820218"
-    },
     "Advertising Content Policy": {
       "select": "main",
       "remove": [
