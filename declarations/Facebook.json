@@ -4,24 +4,18 @@
     "Terms of Service": {
       "combine": [
         {
-          "fetch": "https://mbasic.facebook.com/legal/terms/plain_text_terms/",
-          "select": [
-            "[role=\"main\"]"
-          ],
-          "remove": [
-            "img",
-            "[href=\"#\"]"
-          ]
+          "fetch": "https://mbasic.facebook.com/legal/terms/plain_text_terms/"
         },
         {
-          "fetch": "https://www.facebook.com/legal/eu-ai-terms",
-          "select": [
-            {
-              "startBefore": "[role=\"main\"]",
-              "endBefore": "[role=\"separator\"]"
-            }
-          ]
+          "fetch": "https://mbasic.facebook.com/legal/eu-ai-terms"
         }
+      ],
+      "select": [
+        "[role=\"main\"]"
+      ],
+      "remove": [
+        "img",
+        "[href=\"#\"]"
       ],
       "filter": [
         {
