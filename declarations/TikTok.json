@@ -123,21 +123,11 @@
         },
         {
           "fetch": "https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service",
-          "select": [
-            ".article-desc-container"
-          ],
-          "remove": [
-            ".help-container"
-          ]
+          "select": "[class^=\"detail_root\"]"
         },
         {
           "fetch": "https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/commercial-use-of-music-on-tiktok",
-          "select": [
-            ".article-desc-container"
-          ],
-          "remove": [
-            ".help-container"
-          ]
+          "select": "[class^=\"detail_root\"]"
         }
       ]
     },
