@@ -1,7 +1,9 @@
 id: user-rights
 name: User Rights
-tagline: ''
-description: ''
+tagline: Social media platforms where User Rights supports appeals
+description: '[User Rights](https://www.user-rights.org/) is an [out-of-court dispute settlement body](https://digital-strategy.ec.europa.eu/en/policies/dsa-out-court-dispute-settlement) under the European Union’s Digital Services Act. It evaluates whether actions like content removal or decision to leave content on a platform after being notified of its potential illegality are justified. Their assessments are based on European law, considering freedom of expression and other fundamental rights, as well as on the platforms’ own terms.
+
+This collection ensures that these terms are always up to date and that those in force at the time of complaint can be referenced without ambiguity.'
 dataset: https://github.com/OpenTermsArchive/user-rights-versions/releases
 declarations: https://github.com/OpenTermsArchive/user-rights-declarations
 versions: https://github.com/OpenTermsArchive/user-rights-versions
@@ -15,11 +17,17 @@ trackingPeriods:
     schedule: 30 */12 * * *
     serverLocation: Dublin, IE
 governance:
-  Open Terms Archive:
-    url: https://opentermsarchive.org
+  Anthelia:
+    url: https://anthelia.coop
     logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
     roles:
       - host
       - sysadmin
-      - curator
       - maintainer
+  User Rights:
+    url: https://www.user-rights.org/
+    logo: https://www.user-rights.org/images/logo-full.svg
+    roles:
+      - curator
+      - analyst
+      - sponsor
