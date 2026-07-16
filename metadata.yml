@@ -18,7 +18,7 @@ trackingPeriods:
     serverLocation: Dublin, IE
 governance:
   Anthelia:
-    url: https://anthelia.coop
+    url: https://anthelia.tech
     logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
     roles:
       - host
