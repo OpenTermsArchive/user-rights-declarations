@@ -19,14 +19,14 @@ trackingPeriods:
 governance:
   Anthelia:
     url: https://anthelia.tech
-    logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black.png
+    logo: https://cloud.anthelia.tech/index.php/apps/files_sharing/publicpreview/qm3jorLYgwi5M36?file=/&fileId=713&x=2880&y=1800&a=true&etag=5be2dafb66b483c2348ebd1e20e02dc8
     roles:
       - host
       - sysadmin
       - maintainer
   User Rights:
     url: https://www.user-rights.org/
-    logo: https://www.user-rights.org/images/logo-full.svg
+    logo: https://opentermsarchive.org/images/collections/user-rights.png
     roles:
       - curator
       - analyst
