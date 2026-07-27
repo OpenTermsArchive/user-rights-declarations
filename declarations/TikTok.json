@@ -126,6 +126,9 @@
           "select": [
             "[class*=\"main_title\"]",
             "[class*=\"rt_root\"]"
+          ],
+          "remove": [
+            "[id^=\"anchor\"]"
           ]
         },
         {
