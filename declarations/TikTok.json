@@ -146,7 +146,8 @@
         ".byted-breadcrumb",
         ".article_wrapper_slug_feedback_survey",
         "#embed-video-container",
-        ".tt4b-renderer"
+        ".tt4b-renderer",
+        ".location-box"
       ],
       "executeClientScripts": true,
       "combine": [
