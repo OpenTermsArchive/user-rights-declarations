@@ -27,13 +27,12 @@
     },
     "Community Guidelines": {
       "select": [
-        "[class^=\"layout-body-\"]"
+        "h1",
+        "article"
       ],
       "remove": [
-        "[class^=\"wiki-navigation-content-\"]",
-        "[class^=\"wiki-toc-\"]",
         "picture",
-        ".sc-bwCtUz"
+        "article > div:has(> h3)"
       ],
       "executeClientScripts": true,
       "combine": [
@@ -47,7 +46,7 @@
           "fetch": "https://www.tiktok.com/safety/en/policies-and-engagement/youth-safety"
         },
         {
-          "fetch": "https://www.tiktok.com/community-guidelines/en/safety-civility/?cgversion=2025H2update"
+          "fetch": "https://www.tiktok.com/community-guidelines/en/safety-civility/"
         },
         {
           "fetch": "https://www.tiktok.com/community-guidelines/en/mental-behavioral-health/"
@@ -119,7 +118,10 @@
         },
         {
           "fetch": "https://www.tiktok.com/creator-academy/en/article/creator-code-of-conduct",
-          "select": "#academyArticleMainBody"
+          "select": "#academyArticleMainBody",
+          "remove": [
+            "span[class*=\"Fira_Mono\"]:first-child"
+          ]
         },
         {
           "fetch": "https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service",
@@ -146,8 +148,7 @@
         ".byted-breadcrumb",
         ".article_wrapper_slug_feedback_survey",
         "#embed-video-container",
-        ".tt4b-renderer",
-        ".location-box"
+        ".tt4b-renderer"
       ],
       "executeClientScripts": true,
       "combine": [
@@ -179,7 +180,15 @@
           "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-financial-services"
         },
         {
-          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-gambling-and-games"
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-gambling-and-games",
+          "select": {
+            "startBefore": ".article_wrapper_slug_center",
+            "endAfter": ".location-sections-wrapper"
+          },
+          "remove": [
+            ".byted-breadcrumb",
+            ".location-box"
+          ]
         },
         {
           "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-healthcare-pharmaceuticals"
