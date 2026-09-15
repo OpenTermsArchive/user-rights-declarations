@@ -49,8 +49,6 @@
           "remove": [
             "img",
             "[href=\"#\"]",
-            ".bg",
-            ".x",
             "[aria-label=\"Watch video\"]",
             "[href^=\"#annotation-\"]"
           ]
