@@ -27,11 +27,10 @@
     },
     "Community Guidelines": {
       "select": [
-        "[class^=\"layout-body-\"]"
+        "h1",
+        "article"
       ],
       "remove": [
-        "[class^=\"wiki-navigation-content-\"]",
-        "[class^=\"wiki-toc-\"]",
         "picture",
         "article > div:has(> h3)"
       ],
