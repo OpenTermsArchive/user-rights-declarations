@@ -33,7 +33,7 @@
         "[class^=\"wiki-navigation-content-\"]",
         "[class^=\"wiki-toc-\"]",
         "picture",
-        ".sc-bwCtUz"
+        "article > div:has(> h3)"
       ],
       "executeClientScripts": true,
       "combine": [
