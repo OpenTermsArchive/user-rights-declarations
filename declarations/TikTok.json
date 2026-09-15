@@ -119,7 +119,10 @@
         },
         {
           "fetch": "https://www.tiktok.com/creator-academy/en/article/creator-code-of-conduct",
-          "select": "#academyArticleMainBody"
+          "select": "#academyArticleMainBody",
+          "remove": [
+            "span[class*=\"Fira_Mono\"]:first-child"
+          ]
         },
         {
           "fetch": "https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service",
