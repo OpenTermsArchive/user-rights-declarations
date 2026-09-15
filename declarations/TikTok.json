@@ -148,8 +148,7 @@
         ".byted-breadcrumb",
         ".article_wrapper_slug_feedback_survey",
         "#embed-video-container",
-        ".tt4b-renderer",
-        ".location-box"
+        ".tt4b-renderer"
       ],
       "executeClientScripts": true,
       "combine": [
@@ -181,7 +180,15 @@
           "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-financial-services"
         },
         {
-          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-gambling-and-games"
+          "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-gambling-and-games",
+          "select": {
+            "startBefore": ".article_wrapper_slug_center",
+            "endAfter": ".location-sections-wrapper"
+          },
+          "remove": [
+            ".byted-breadcrumb",
+            ".location-box"
+          ]
         },
         {
           "fetch": "https://ads.tiktok.com/help/article/tiktok-ads-policy-healthcare-pharmaceuticals"
