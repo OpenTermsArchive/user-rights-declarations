@@ -118,7 +118,7 @@
         },
         {
           "fetch": "https://www.tiktok.com/creator-academy/en/article/creator-code-of-conduct",
-          "select": "#academyArticleMainBody",
+          "select": "#academyArticleMainBody:has(span[class*=\"Fira_Mono\"]:last-child > span:not(:empty))",
           "remove": [
             "span[class*=\"Fira_Mono\"]:first-child"
           ]
