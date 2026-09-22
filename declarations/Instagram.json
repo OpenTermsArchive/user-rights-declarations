@@ -49,10 +49,7 @@
     },
     "Community Guidelines": {
       "select": [
-        {
-          "startBefore": "main",
-          "endBefore": "#user-experiences"
-        }
+        "main"
       ],
       "remove": [
         "[role=\"navigation\"]",
@@ -61,7 +58,8 @@
         "[href=\"#policy-details\"]",
         "[role=\"tablist\"]",
         "[aria-label=\"Video player\"]",
-        "img[alt=\"\"]"
+        "img[alt=\"\"]",
+        "#user-experiences ~ *"
       ],
       "filter": [
         "removeChangeLogLabel"
