@@ -207,7 +207,8 @@
             "fieldset",
             "[id=\"Related Articles\" i]",
             "[aria-label=\"Copy link\"]",
-            "[data-type=\"hscroll-child\"]"
+            "[data-type=\"hscroll-child\"]",
+            "#help-center-faq-page-container > div > :last-child:has([role=\"button\"][aria-label*=\"Meta AI\"])"
           ]
         },
         {
