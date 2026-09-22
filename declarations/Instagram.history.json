@@ -1,0 +1,111 @@
+{
+  "Community Guidelines": [
+    {
+      "select": [
+        "main"
+      ],
+      "remove": [
+        "[role=\"navigation\"]",
+        "[href=\"#user-experiences\"]",
+        "[href=\"#data\"]",
+        "[href=\"#policy-details\"]",
+        "[role=\"tablist\"]",
+        "[aria-label=\"Video player\"]",
+        "img[alt=\"\"]",
+        "#user-experiences ~ *"
+      ],
+      "filter": [
+        "removeChangeLogLabel"
+      ],
+      "combine": [
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/",
+          "select": "main"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/violence-incitement/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/dangerous-individuals-organizations/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/coordinating-harm-publicizing-crime/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/regulated-goods/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/fraud-deception/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/suicide-self-injury/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/child-sexual-exploitation-abuse-nudity/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/sexual-exploitation-adults/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/bullying-harassment/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/human-exploitation/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/privacy-violations-image-privacy-rights/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/hate-speech/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/violent-graphic-content/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/adult-nudity-sexual-activity/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/sexual-solicitation/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/account-integrity/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/authentic-identity-representation/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/spam/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/cybersecurity/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/inauthentic-behavior/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/misinformation/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/memorialization/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/intellectual-property/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/meta-intellectual-property/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/additional-protection-minors/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/locally-illegal-products-services/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/community-standards/user-requests/"
+        }
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2026-09-21T22:47:50Z"
+    }
+  ]
+}
