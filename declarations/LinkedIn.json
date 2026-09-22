@@ -137,7 +137,7 @@
       ],
       "combine": [
         {
-          "fetch": "https://linkedin.com/legal/ads-policy"
+          "fetch": "https://www.linkedin.com/legal/ads-policy"
         },
         {
           "fetch": "https://www.linkedin.com/help/lms/answer/12412"
