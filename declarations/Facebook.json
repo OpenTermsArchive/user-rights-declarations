@@ -87,10 +87,7 @@
     },
     "Community Guidelines": {
       "select": [
-        {
-          "startBefore": "main",
-          "endBefore": "#user-experiences"
-        }
+        "main"
       ],
       "remove": [
         "[role=\"navigation\"]",
@@ -99,7 +96,8 @@
         "[href=\"#policy-details\"]",
         "[role=\"tablist\"]",
         "[aria-label=\"Video player\"]",
-        "img[alt=\"\"]"
+        "img[alt=\"\"]",
+        "#user-experiences ~ *"
       ],
       "filter": [
         "removeChangeLogLabel",
@@ -131,7 +129,7 @@
           "fetch": "https://transparency.meta.com/policies/community-standards/regulated-goods/"
         },
         {
-          "fetch": "https://transparency.meta.com/policies/community-standards/fraud-deception/"
+          "fetch": "https://transparency.meta.com/policies/community-standards/prohibited-commercial-practices/"
         },
         {
           "fetch": "https://transparency.meta.com/policies/community-standards/suicide-self-injury/"
@@ -209,7 +207,8 @@
             "fieldset",
             "[id=\"Related Articles\" i]",
             "[aria-label=\"Copy link\"]",
-            "[data-type=\"hscroll-child\"]"
+            "[data-type=\"hscroll-child\"]",
+            "#help-center-faq-page-container > div > :last-child:has([role=\"button\"][aria-label*=\"Meta AI\"])"
           ]
         },
         {
