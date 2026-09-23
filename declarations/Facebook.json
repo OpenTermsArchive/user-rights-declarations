@@ -262,6 +262,9 @@
           "fetch": "https://transparency.meta.com/policies/ad-standards/unacceptable-content/dangerous-orgs-individuals/"
         },
         {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/unacceptable-content/coordinating-harm-and-promoting-crime/"
+        },
+        {
           "fetch": "https://transparency.meta.com/policies/ad-standards/unacceptable-content/discriminatory-practices/"
         },
         {
@@ -278,6 +281,9 @@
         },
         {
           "fetch": "https://transparency.meta.com/policies/ad-standards/unacceptable-content/vaccine-discouragement/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/deceptive-content/prohibited-commercial-practices/"
         },
         {
           "fetch": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/alcohol/"
@@ -323,6 +329,9 @@
         },
         {
           "fetch": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/gambling-games/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/prohibited-documents-and-financial-services/"
         },
         {
           "fetch": "https://transparency.meta.com/policies/ad-standards/objectionable-content/adult-nudity-and-sexual-activity/"
@@ -371,6 +380,9 @@
         },
         {
           "fetch": "https://transparency.meta.com/policies/ad-standards/business-assets/user-requests/"
+        },
+        {
+          "fetch": "https://transparency.meta.com/policies/ad-standards/community-standards/"
         },
         {
           "fetch": "https://www.facebook.com/business/help/975570072950669?id=434838534925385",
