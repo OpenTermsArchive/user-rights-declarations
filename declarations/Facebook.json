@@ -256,12 +256,6 @@
           "fetch": "https://transparency.meta.com/policies/ad-standards/"
         },
         {
-          "fetch": "https://transparency.meta.com/policies/ad-standards/objectionable-content/privacy-violations-personal-attributes/"
-        },
-        {
-          "fetch": "https://transparency.meta.com/policies/ad-standards/objectionable-content/adult-nudity-and-sexual-activity/"
-        },
-        {
           "fetch": "https://transparency.meta.com/policies/ad-standards/objectionable-content/child-sexual-exploitation-abuse-nudity/"
         },
         {
