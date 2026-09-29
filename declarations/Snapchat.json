@@ -174,7 +174,7 @@
           "fetch": "https://values.snap.com/policy/creator-monetization-policy?lang=en-GB"
         },
         {
-          "fetch": "https://www.snap.com/monetization-terms?lang=en-GB"
+          "fetch": "https://www.snap.com/monetization-terms"
         }
       ]
     },
