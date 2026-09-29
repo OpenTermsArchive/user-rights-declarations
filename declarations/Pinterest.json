@@ -43,7 +43,8 @@
           "fetch": "https://policy.pinterest.com/en/ad-data-terms"
         },
         {
-          "fetch": "https://help.pinterest.com/en/business/article/lead-ads"
+          "fetch": "https://help.pinterest.com/en/business/article/lead-ads",
+          "select": "article"
         }
       ]
     }
