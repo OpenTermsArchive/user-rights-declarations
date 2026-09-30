@@ -32,7 +32,7 @@
     },
     "Privacy Policy": {
       "select": [
-        "body"
+        "[id^=\"mount_\"]"
       ],
       "remove": [
         "img",
