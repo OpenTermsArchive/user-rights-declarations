@@ -250,6 +250,9 @@
         "[aria-label=\"Video player\"]",
         "img[alt=\"\"]"
       ],
+      "filter": [
+        "removeChangeLogLabel"
+      ],
       "executeClientScripts": true,
       "combine": [
         {
