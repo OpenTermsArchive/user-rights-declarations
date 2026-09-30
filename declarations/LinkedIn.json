@@ -125,7 +125,8 @@
         ".component-standaloneImage",
         ".article-content__video",
         ".machine-translation",
-        "[data-test-selector=\"relativeTime-container\"]"
+        "[data-test-selector=\"relativeTime-container\"]",
+        ".people-also-viewed"
       ],
       "filter": [
         {
