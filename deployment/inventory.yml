@@ -1,6 +1,6 @@
 all:
   hosts:
-    193.24.234.188:
-      ansible_user: ota
-      ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIPtLaY9Lm5pOh/3uq8BIoRCRPnodZIFmqxEPevn+7cif
+    52.48.164.204:
+      ansible_user: admin
+      ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIKFbsL9/EzG2vrff1uWAEZ0wjI4icCa9N+KVJ7qQLWBU
       ota_collection_repository: https://github.com/OpenTermsArchive/user-rights-declarations.git
