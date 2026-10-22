@@ -143,12 +143,15 @@
       ]
     },
     "Advertising Content Policy": {
-      "select": "html:not([data-n-head-ssr]) .article_wrapper_slug_center",
+      "select": ".article_wrapper_slug_center",
       "remove": [
         ".byted-breadcrumb",
         ".article_wrapper_slug_feedback_survey",
         "#embed-video-container",
         ".tt4b-renderer"
+      ],
+      "filter": [
+        "normalizeLastUpdatedMonth"
       ],
       "executeClientScripts": true,
       "combine": [
