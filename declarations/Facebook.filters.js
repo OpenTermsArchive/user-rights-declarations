@@ -1,1 +1,1 @@
-export { removeChangeLogLabel } from './Instagram.filters.js';
+export * from './Instagram.filters.js';

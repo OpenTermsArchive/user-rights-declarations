@@ -71,7 +71,25 @@
           ],
           "remove": [
             "[role=\"navigation\"]",
-            "img[alt=\"\"]"
+            "[href=\"#user-experiences\"]",
+            "[href=\"#data\"]",
+            "[href=\"#policy-details\"]",
+            "[role=\"tablist\"]",
+            "[aria-label=\"Video player\"]",
+            "img[alt=\"\"]",
+            "#user-experiences ~ *"
+          ],
+          "filter": [
+            "removeChangeLogLabel",
+            "addTrailingSlashToInternalLinks",
+            {
+              "removeQueryParams": [
+                "h",
+                "_nc_gid",
+                "oh",
+                "oe"
+              ]
+            }
           ]
         },
         {
@@ -101,6 +119,7 @@
       ],
       "filter": [
         "removeChangeLogLabel",
+        "addTrailingSlashToInternalLinks",
         {
           "removeQueryParams": [
             "h",
@@ -113,8 +132,7 @@
       "executeClientScripts": true,
       "combine": [
         {
-          "fetch": "https://transparency.meta.com/policies/community-standards/",
-          "select": "main"
+          "fetch": "https://transparency.meta.com/policies/community-standards/"
         },
         {
           "fetch": "https://transparency.meta.com/policies/community-standards/violence-incitement/"
@@ -209,6 +227,17 @@
             "[aria-label=\"Copy link\"]",
             "[data-type=\"hscroll-child\"]",
             "#help-center-faq-page-container > div > :last-child:has([role=\"button\"][aria-label*=\"Meta AI\"])"
+          ],
+          "filter": [
+            "removeChangeLogLabel",
+            {
+              "removeQueryParams": [
+                "h",
+                "_nc_gid",
+                "oh",
+                "oe"
+              ]
+            }
           ]
         },
         {
@@ -217,6 +246,17 @@
             "._9n_g",
             "#intro",
             "#policies"
+          ],
+          "filter": [
+            "removeChangeLogLabel",
+            {
+              "removeQueryParams": [
+                "h",
+                "_nc_gid",
+                "oh",
+                "oe"
+              ]
+            }
           ]
         }
       ]
@@ -240,7 +280,9 @@
       "executeClientScripts": true
     },
     "Advertising Content Policy": {
-      "select": "main",
+      "select": [
+        "main"
+      ],
       "remove": [
         "[role=\"navigation\"]",
         "[href=\"#user-experiences\"]",
@@ -248,10 +290,20 @@
         "[href=\"#policy-details\"]",
         "[role=\"tablist\"]",
         "[aria-label=\"Video player\"]",
-        "img[alt=\"\"]"
+        "img[alt=\"\"]",
+        "#user-experiences ~ *"
       ],
       "filter": [
-        "removeChangeLogLabel"
+        "removeChangeLogLabel",
+        "addTrailingSlashToInternalLinks",
+        {
+          "removeQueryParams": [
+            "h",
+            "_nc_gid",
+            "oh",
+            "oe"
+          ]
+        }
       ],
       "executeClientScripts": true,
       "combine": [
