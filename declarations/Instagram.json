@@ -219,6 +219,7 @@
         "img[alt=\"\"]"
       ],
       "filter": [
+        "addTrailingSlashToInternalLinks",
         {
           "removeQueryParams": [
             "h",
