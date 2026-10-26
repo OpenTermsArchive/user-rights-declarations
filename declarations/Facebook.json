@@ -251,7 +251,8 @@
         "img[alt=\"\"]"
       ],
       "filter": [
-        "removeChangeLogLabel"
+        "removeChangeLogLabel",
+        "addTrailingSlashToInternalLinks"
       ],
       "executeClientScripts": true,
       "combine": [
