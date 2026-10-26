@@ -63,12 +63,20 @@
         "#user-experiences ~ *"
       ],
       "filter": [
-        "removeChangeLogLabel"
+        "removeChangeLogLabel",
+        "addTrailingSlashToInternalLinks",
+        {
+          "removeQueryParams": [
+            "h",
+            "_nc_gid",
+            "oh",
+            "oe"
+          ]
+        }
       ],
       "combine": [
         {
-          "fetch": "https://transparency.meta.com/policies/community-standards/",
-          "select": "main"
+          "fetch": "https://transparency.meta.com/policies/community-standards/"
         },
         {
           "fetch": "https://transparency.meta.com/policies/community-standards/violence-incitement/"
@@ -208,7 +216,9 @@
       ]
     },
     "Advertising Content Policy": {
-      "select": "main",
+      "select": [
+        "main"
+      ],
       "remove": [
         "[role=\"navigation\"]",
         "[href=\"#user-experiences\"]",
@@ -216,9 +226,11 @@
         "[href=\"#policy-details\"]",
         "[role=\"tablist\"]",
         "[aria-label=\"Video player\"]",
-        "img[alt=\"\"]"
+        "img[alt=\"\"]",
+        "#user-experiences ~ *"
       ],
       "filter": [
+        "removeChangeLogLabel",
         "addTrailingSlashToInternalLinks",
         {
           "removeQueryParams": [
