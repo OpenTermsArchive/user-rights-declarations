@@ -7,6 +7,7 @@
         "#summary",
         ".sdsm-media-wrapper"
       ],
+      "executeClientScripts": true,
       "combine": [
         {
           "fetch": "https://www.snap.com/terms?lang=en-GB"
@@ -40,6 +41,7 @@
         "#summary",
         ".sdsm-media-wrapper"
       ],
+      "executeClientScripts": true,
       "combine": [
         {
           "fetch": "https://values.snap.com/privacy/privacy-center?lang=en-GB"
@@ -95,6 +97,7 @@
         "#summary",
         ".sdsm-media-wrapper"
       ],
+      "executeClientScripts": true,
       "combine": [
         {
           "fetch": "https://values.snap.com/policy/policy-community-guidelines?lang=en-GB"
@@ -161,6 +164,7 @@
         "#summary",
         ".sdsm-media-wrapper"
       ],
+      "executeClientScripts": true,
       "fetch": "https://values.snap.com/privacy/transparency/community-guidelines/human-rights?lang=en-GB"
     },
     "Content Monetisation Policy": {
@@ -169,6 +173,7 @@
         "#summary",
         ".sdsm-media-wrapper"
       ],
+      "executeClientScripts": true,
       "combine": [
         {
           "fetch": "https://values.snap.com/policy/creator-monetization-policy?lang=en-GB"
@@ -184,6 +189,7 @@
         "#summary",
         ".sdsm-media-wrapper"
       ],
+      "executeClientScripts": true,
       "combine": [
         {
           "fetch": "https://www.snap.com/ad-policies?lang=en-GB"
