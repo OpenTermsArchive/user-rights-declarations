@@ -31,14 +31,6 @@
     "fetcher": {
       "language": "en-IE, en-GB, en"
     },
-    "reporter": {
-      "type": "github",
-      "repositories": {
-        "declarations": "OpenTermsArchive/user-rights-declarations",
-        "versions": "OpenTermsArchive/user-rights-versions",
-        "snapshots": "OpenTermsArchive/user-rights-snapshots"
-      }
-    },
     "dataset": {
       "title": "user-rights",
       "versionsRepositoryURL": "https://github.com/OpenTermsArchive/user-rights-versions"
@@ -52,6 +44,29 @@
     },
     "logger": {
       "timestampPrefix": false,
+      "smtp": {
+        "host": "smtp-relay.brevo.com",
+        "port": 587,
+        "username": "admin@opentermsarchive.org"
+      }
+    }
+  },
+  "@opentermsarchive/issue-reporter": {
+    "type": "github",
+    "repositories": {
+      "declarations": "OpenTermsArchive/user-rights-declarations",
+      "versions": "OpenTermsArchive/user-rights-versions",
+      "snapshots": "OpenTermsArchive/user-rights-snapshots"
+    },
+    "collectionApi": {
+      "url": "http://127.0.0.1:3000/collection-api/v1"
+    },
+    "logger": {
+      "timestampPrefix": false,
+      "sendMailOnError": {
+        "to": "admin@opentermsarchive.org",
+        "from": "noreply@opentermsarchive.org"
+      },
       "smtp": {
         "host": "smtp-relay.brevo.com",
         "port": 587,
