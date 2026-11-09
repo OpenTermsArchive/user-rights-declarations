@@ -31,14 +31,6 @@
     "fetcher": {
       "language": "en-IE, en-GB, en"
     },
-    "reporter": {
-      "type": "github",
-      "repositories": {
-        "declarations": "OpenTermsArchive/user-rights-declarations",
-        "versions": "OpenTermsArchive/user-rights-versions",
-        "snapshots": "OpenTermsArchive/user-rights-snapshots"
-      }
-    },
     "dataset": {
       "title": "user-rights",
       "versionsRepositoryURL": "https://github.com/OpenTermsArchive/user-rights-versions"
