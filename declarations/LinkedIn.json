@@ -7,6 +7,9 @@
         ".banner__image-container",
         ".component-standaloneImage"
       ],
+      "filter": [
+        "moveBoldOutsideLinks"
+      ],
       "combine": [
         {
           "fetch": "https://www.linkedin.com/legal/user-agreement"
@@ -21,6 +24,9 @@
       "remove": [
         ".banner__image-container",
         ".component-standaloneImage"
+      ],
+      "filter": [
+        "moveBoldOutsideLinks"
       ],
       "combine": [
         {
@@ -41,6 +47,9 @@
         ".article-content__video",
         ".machine-translation",
         "[data-test-selector=\"relativeTime-container\"]"
+      ],
+      "filter": [
+        "moveBoldOutsideLinks"
       ],
       "combine": [
         {
@@ -93,6 +102,9 @@
         ".machine-translation",
         "[data-test-selector=\"relativeTime-container\"]"
       ],
+      "filter": [
+        "moveBoldOutsideLinks"
+      ],
       "combine": [
         {
           "fetch": "https://www.linkedin.com/help/linkedin/answer/a554240/"
@@ -134,7 +146,8 @@
             "e",
             "t"
           ]
-        }
+        },
+        "moveBoldOutsideLinks"
       ],
       "combine": [
         {
