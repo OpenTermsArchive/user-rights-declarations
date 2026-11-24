@@ -147,6 +147,7 @@
       "remove": [
         ".byted-breadcrumb",
         ".article_wrapper_slug_feedback_survey",
+        ".article_wrapper_slug_center_icon",
         "#embed-video-container",
         ".tt4b-renderer"
       ],
